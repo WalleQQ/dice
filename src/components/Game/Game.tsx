@@ -1,5 +1,5 @@
 import React from 'react';
-import {useAppDispatch, useAppSelector} from '../../hooks/redux';
+import {useAppDispatch} from '../../hooks/redux';
 import {rollSlice} from '../../store/reducers/userRoll';
 import styles from '../Game/Game.module.css';
 import {Players} from '../Players/Players';
