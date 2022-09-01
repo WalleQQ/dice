@@ -4,3 +4,9 @@
   padding: 50px;
   text-align: center;
 }
+
+@media (max-width: 1199px) {
+  .game {
+    padding: 20px;
+  }
+}

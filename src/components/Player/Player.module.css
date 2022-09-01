@@ -1,5 +1,4 @@
 .player {
-  flex-basis: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,4 +50,14 @@
   right: -40px;
   transform: translateY(-50%);
   border-radius: 50%;
+}
+
+@media (max-width: 1200px) {
+  .player {
+    margin-bottom: 30px;
+  }
+
+  .player__score {
+    margin-bottom: 60px;
+  }
 }
